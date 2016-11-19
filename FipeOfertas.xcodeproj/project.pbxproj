@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		337C0D2D62B4AAF9779D58C4 /* Pods_FipeOfertas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246A7A0CEE3B6859CD04F376 /* Pods_FipeOfertas.framework */; };
 		EBBC40FE1DE0E2350028D589 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBC40FD1DE0E2350028D589 /* AppDelegate.swift */; };
 		EBBC41001DE0E2350028D589 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBC40FF1DE0E2350028D589 /* ViewController.swift */; };
 		EBBC41031DE0E2350028D589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBC41011DE0E2350028D589 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		246A7A0CEE3B6859CD04F376 /* Pods_FipeOfertas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FipeOfertas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C7914A703A1D246C708377 /* Pods-FipeOfertas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FipeOfertas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FipeOfertas/Pods-FipeOfertas.debug.xcconfig"; sourceTree = "<group>"; };
+		B7F7DB052898F8D2D132C91F /* Pods-FipeOfertas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FipeOfertas.release.xcconfig"; path = "Pods/Target Support Files/Pods-FipeOfertas/Pods-FipeOfertas.release.xcconfig"; sourceTree = "<group>"; };
 		EBBC40FA1DE0E2350028D589 /* FipeOfertas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FipeOfertas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBBC40FD1DE0E2350028D589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBBC40FF1DE0E2350028D589 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337C0D2D62B4AAF9779D58C4 /* Pods_FipeOfertas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		889E3E268CFF559E24C6367B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8C7914A703A1D246C708377 /* Pods-FipeOfertas.debug.xcconfig */,
+				B7F7DB052898F8D2D132C91F /* Pods-FipeOfertas.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C91602A3619A83C9CDEA4BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				246A7A0CEE3B6859CD04F376 /* Pods_FipeOfertas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EBBC40F11DE0E2350028D589 = {
 			isa = PBXGroup;
 			children = (
 				EBBC40FC1DE0E2350028D589 /* FipeOfertas */,
 				EBBC40FB1DE0E2350028D589 /* Products */,
+				889E3E268CFF559E24C6367B /* Pods */,
+				8C91602A3619A83C9CDEA4BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +78,46 @@
 		EBBC40FC1DE0E2350028D589 /* FipeOfertas */ = {
 			isa = PBXGroup;
 			children = (
-				EBBC40FD1DE0E2350028D589 /* AppDelegate.swift */,
-				EBBC40FF1DE0E2350028D589 /* ViewController.swift */,
-				EBBC41011DE0E2350028D589 /* Main.storyboard */,
-				EBBC41041DE0E2350028D589 /* Assets.xcassets */,
-				EBBC41061DE0E2350028D589 /* LaunchScreen.storyboard */,
-				EBBC41091DE0E2350028D589 /* Info.plist */,
+				EBBC41121DE0E2900028D589 /* Model */,
+				EBBC410F1DE0E2620028D589 /* Suport Files */,
+				EBBC41111DE0E2790028D589 /* Controller */,
+				EBBC41101DE0E26F0028D589 /* View */,
 			);
 			path = FipeOfertas;
+			sourceTree = "<group>";
+		};
+		EBBC410F1DE0E2620028D589 /* Suport Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBBC40FD1DE0E2350028D589 /* AppDelegate.swift */,
+				EBBC41041DE0E2350028D589 /* Assets.xcassets */,
+				EBBC41091DE0E2350028D589 /* Info.plist */,
+			);
+			name = "Suport Files";
+			sourceTree = "<group>";
+		};
+		EBBC41101DE0E26F0028D589 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBBC41011DE0E2350028D589 /* Main.storyboard */,
+				EBBC41061DE0E2350028D589 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EBBC41111DE0E2790028D589 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EBBC40FF1DE0E2350028D589 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EBBC41121DE0E2900028D589 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBBC410C1DE0E2350028D589 /* Build configuration list for PBXNativeTarget "FipeOfertas" */;
 			buildPhases = (
+				D1959CEB8A0CAE0F18A7279F /* [CP] Check Pods Manifest.lock */,
 				EBBC40F61DE0E2350028D589 /* Sources */,
 				EBBC40F71DE0E2350028D589 /* Frameworks */,
 				EBBC40F81DE0E2350028D589 /* Resources */,
+				EA6456234744866BEE88D9CA /* [CP] Embed Pods Frameworks */,
+				2382F5EA4B3EA0FE46D100F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +190,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2382F5EA4B3EA0FE46D100F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FipeOfertas/Pods-FipeOfertas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1959CEB8A0CAE0F18A7279F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA6456234744866BEE88D9CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FipeOfertas/Pods-FipeOfertas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EBBC40F61DE0E2350028D589 /* Sources */ = {
@@ -259,6 +366,7 @@
 		};
 		EBBC410D1DE0E2350028D589 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8C7914A703A1D246C708377 /* Pods-FipeOfertas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 66TFW9PS7V;
@@ -272,6 +380,7 @@
 		};
 		EBBC410E1DE0E2350028D589 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F7DB052898F8D2D132C91F /* Pods-FipeOfertas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 66TFW9PS7V;
