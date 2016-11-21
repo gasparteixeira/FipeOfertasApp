@@ -1,6 +1,6 @@
 #FipeOfertasApp
 
- Projeto para desenvolver um APP utilizando conceitos avançados da linguagem Swift 3
+Projeto para desenvolver um APP utilizando conceitos avançados da linguagem Swift 3
 ---
 ## Integrantes 
 
