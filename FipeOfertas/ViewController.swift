@@ -9,10 +9,28 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var brands = [Brand]()
+    
+    func loadBrand() {
+        let vehicleManager = VehicleManager()
+        
+        vehicleManager.loadBrands{ (brands, error) in
+            if error == nil {
+                if let array = brands {
+                    print(array) // escrevendo as marcas
+                    self.brands = array
+                }
+            }
+            
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        loadBrand();
+
     }
 
     override func didReceiveMemoryWarning() {

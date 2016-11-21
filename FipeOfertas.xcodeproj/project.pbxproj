@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		337C0D2D62B4AAF9779D58C4 /* Pods_FipeOfertas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246A7A0CEE3B6859CD04F376 /* Pods_FipeOfertas.framework */; };
+		EB45FCC71DE27154006A5CA8 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB45FCC61DE27154006A5CA8 /* Brand.swift */; };
+		EB45FCC91DE273F3006A5CA8 /* VehicleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB45FCC81DE273F3006A5CA8 /* VehicleManager.swift */; };
+		EB45FCCB1DE286B4006A5CA8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB45FCCA1DE286B4006A5CA8 /* Model.swift */; };
+		EB45FCCD1DE28821006A5CA8 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB45FCCC1DE28821006A5CA8 /* Type.swift */; };
+		EB45FCCF1DE28938006A5CA8 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB45FCCE1DE28938006A5CA8 /* Vehicle.swift */; };
 		EBBC40FE1DE0E2350028D589 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBC40FD1DE0E2350028D589 /* AppDelegate.swift */; };
 		EBBC41001DE0E2350028D589 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBC40FF1DE0E2350028D589 /* ViewController.swift */; };
 		EBBC41031DE0E2350028D589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBC41011DE0E2350028D589 /* Main.storyboard */; };
@@ -19,6 +24,11 @@
 		246A7A0CEE3B6859CD04F376 /* Pods_FipeOfertas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FipeOfertas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C7914A703A1D246C708377 /* Pods-FipeOfertas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FipeOfertas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FipeOfertas/Pods-FipeOfertas.debug.xcconfig"; sourceTree = "<group>"; };
 		B7F7DB052898F8D2D132C91F /* Pods-FipeOfertas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FipeOfertas.release.xcconfig"; path = "Pods/Target Support Files/Pods-FipeOfertas/Pods-FipeOfertas.release.xcconfig"; sourceTree = "<group>"; };
+		EB45FCC61DE27154006A5CA8 /* Brand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		EB45FCC81DE273F3006A5CA8 /* VehicleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleManager.swift; sourceTree = "<group>"; };
+		EB45FCCA1DE286B4006A5CA8 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EB45FCCC1DE28821006A5CA8 /* Type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
+		EB45FCCE1DE28938006A5CA8 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		EBBC40FA1DE0E2350028D589 /* FipeOfertas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FipeOfertas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBBC40FD1DE0E2350028D589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBBC40FF1DE0E2350028D589 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +126,11 @@
 		EBBC41121DE0E2900028D589 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EB45FCC61DE27154006A5CA8 /* Brand.swift */,
+				EB45FCC81DE273F3006A5CA8 /* VehicleManager.swift */,
+				EB45FCCA1DE286B4006A5CA8 /* Model.swift */,
+				EB45FCCC1DE28821006A5CA8 /* Type.swift */,
+				EB45FCCE1DE28938006A5CA8 /* Vehicle.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -219,7 +234,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		EA6456234744866BEE88D9CA /* [CP] Embed Pods Frameworks */ = {
@@ -245,7 +260,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBBC41001DE0E2350028D589 /* ViewController.swift in Sources */,
+				EB45FCC91DE273F3006A5CA8 /* VehicleManager.swift in Sources */,
 				EBBC40FE1DE0E2350028D589 /* AppDelegate.swift in Sources */,
+				EB45FCC71DE27154006A5CA8 /* Brand.swift in Sources */,
+				EB45FCCF1DE28938006A5CA8 /* Vehicle.swift in Sources */,
+				EB45FCCB1DE286B4006A5CA8 /* Model.swift in Sources */,
+				EB45FCCD1DE28821006A5CA8 /* Type.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +431,7 @@
 				EBBC410E1DE0E2350028D589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
