@@ -8,4 +8,5 @@ target 'FipeOfertas' do
   # Pods for FipeOfertas
 	pod 'Alamofire', '~> 4.0'
 	pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+	pod 'UIDropDown'
 end

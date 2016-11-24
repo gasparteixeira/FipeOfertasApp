@@ -23,9 +23,9 @@ class VehicleManager: NSObject {
             let json = JSON(response.result.value!)
 
             for(_, subJSON): (String, JSON) in json {
-                let brand = Brand(idBrand: subJSON["idBrand"].int,
+                let brand = Brand(idBrand: subJSON["id"].int,
                                 name: subJSON["name"].string,
-                                fipeName: subJSON["fipeName"].string,
+                                fipeName: subJSON["fipe_name"].string,
                                 order: subJSON["order"].int,
                                 key: subJSON["key"].string)
                 
