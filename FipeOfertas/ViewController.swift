@@ -47,7 +47,9 @@ class ViewController: UIViewController {
         drop.center = CGPoint(x: self.view.frame.midX, y: self.view.frame.midY - 50)
         drop.placeholder = "Selecione a marca..."
         drop.options = self.ordenedBrands
-        
+        drop.borderColor = .darkGray
+        drop.tableHeight = self.view.frame.midY
+        drop.rowHeight = 40
         drop.didSelect { (option, index) in
             self.label?.text = "You just select \(option)  at index: \(index)"
             print("You just select: \(option) at index: \(index)")
