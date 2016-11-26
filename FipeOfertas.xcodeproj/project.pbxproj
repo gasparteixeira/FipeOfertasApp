@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		337C0D2D62B4AAF9779D58C4 /* Pods_FipeOfertas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246A7A0CEE3B6859CD04F376 /* Pods_FipeOfertas.framework */; };
-		EB303C011DE7BF9500FFB82A /* fipeofertas.png in Resources */ = {isa = PBXBuildFile; fileRef = EB303C001DE7BF9500FFB82A /* fipeofertas.png */; };
+		C902A4201DE9F15A00566F39 /* FipeOfertasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902A41F1DE9F15A00566F39 /* FipeOfertasUITests.swift */; };
+		C902A4281DE9F63C00566F39 /* fipeofertas.png in Resources */ = {isa = PBXBuildFile; fileRef = C902A4271DE9F63C00566F39 /* fipeofertas.png */; };
+		C916350B1DE9CDA1006B3B8E /* FipeOfertasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C916350A1DE9CDA1006B3B8E /* FipeOfertasTests.swift */; };
 		EB45FCC71DE27154006A5CA8 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB45FCC61DE27154006A5CA8 /* Brand.swift */; };
 		EB45FCC91DE273F3006A5CA8 /* VehicleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB45FCC81DE273F3006A5CA8 /* VehicleManager.swift */; };
 		EB45FCCB1DE286B4006A5CA8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB45FCCA1DE286B4006A5CA8 /* Model.swift */; };
@@ -21,11 +23,34 @@
 		EBBC41081DE0E2350028D589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBC41061DE0E2350028D589 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C902A4221DE9F15B00566F39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBBC40F21DE0E2350028D589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBBC40F91DE0E2350028D589;
+			remoteInfo = FipeOfertas;
+		};
+		C916350D1DE9CDA1006B3B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBBC40F21DE0E2350028D589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBBC40F91DE0E2350028D589;
+			remoteInfo = FipeOfertas;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		246A7A0CEE3B6859CD04F376 /* Pods_FipeOfertas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FipeOfertas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C7914A703A1D246C708377 /* Pods-FipeOfertas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FipeOfertas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FipeOfertas/Pods-FipeOfertas.debug.xcconfig"; sourceTree = "<group>"; };
 		B7F7DB052898F8D2D132C91F /* Pods-FipeOfertas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FipeOfertas.release.xcconfig"; path = "Pods/Target Support Files/Pods-FipeOfertas/Pods-FipeOfertas.release.xcconfig"; sourceTree = "<group>"; };
-		EB303C001DE7BF9500FFB82A /* fipeofertas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fipeofertas.png; path = ../../../Downloads/fipeofertas.png; sourceTree = "<group>"; };
+		C902A41D1DE9F15A00566F39 /* FipeOfertasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FipeOfertasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C902A41F1DE9F15A00566F39 /* FipeOfertasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FipeOfertasUITests.swift; sourceTree = "<group>"; };
+		C902A4211DE9F15B00566F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C902A4271DE9F63C00566F39 /* fipeofertas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fipeofertas.png; path = ../../../Downloads/fipeofertas.png; sourceTree = "<group>"; };
+		C91635081DE9CDA0006B3B8E /* FipeOfertasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FipeOfertasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C916350A1DE9CDA1006B3B8E /* FipeOfertasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FipeOfertasTests.swift; sourceTree = "<group>"; };
+		C916350C1DE9CDA1006B3B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB45FCC61DE27154006A5CA8 /* Brand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
 		EB45FCC81DE273F3006A5CA8 /* VehicleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleManager.swift; sourceTree = "<group>"; };
 		EB45FCCA1DE286B4006A5CA8 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -41,6 +66,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C902A41A1DE9F15A00566F39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91635051DE9CDA0006B3B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EBBC40F71DE0E2350028D589 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,10 +108,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C902A41E1DE9F15A00566F39 /* FipeOfertasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C902A41F1DE9F15A00566F39 /* FipeOfertasUITests.swift */,
+				C902A4211DE9F15B00566F39 /* Info.plist */,
+			);
+			path = FipeOfertasUITests;
+			sourceTree = "<group>";
+		};
+		C91635091DE9CDA1006B3B8E /* FipeOfertasTests */ = {
+			isa = PBXGroup;
+			children = (
+				C916350A1DE9CDA1006B3B8E /* FipeOfertasTests.swift */,
+				C916350C1DE9CDA1006B3B8E /* Info.plist */,
+			);
+			path = FipeOfertasTests;
+			sourceTree = "<group>";
+		};
 		EBBC40F11DE0E2350028D589 = {
 			isa = PBXGroup;
 			children = (
 				EBBC40FC1DE0E2350028D589 /* FipeOfertas */,
+				C91635091DE9CDA1006B3B8E /* FipeOfertasTests */,
+				C902A41E1DE9F15A00566F39 /* FipeOfertasUITests */,
 				EBBC40FB1DE0E2350028D589 /* Products */,
 				889E3E268CFF559E24C6367B /* Pods */,
 				8C91602A3619A83C9CDEA4BD /* Frameworks */,
@@ -83,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				EBBC40FA1DE0E2350028D589 /* FipeOfertas.app */,
+				C91635081DE9CDA0006B3B8E /* FipeOfertasTests.xctest */,
+				C902A41D1DE9F15A00566F39 /* FipeOfertasUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,8 +162,8 @@
 		EBBC410F1DE0E2620028D589 /* Suport Files */ = {
 			isa = PBXGroup;
 			children = (
+				C902A4271DE9F63C00566F39 /* fipeofertas.png */,
 				EBBC40FD1DE0E2350028D589 /* AppDelegate.swift */,
-				EB303C001DE7BF9500FFB82A /* fipeofertas.png */,
 				EBBC41041DE0E2350028D589 /* Assets.xcassets */,
 				EBBC41091DE0E2350028D589 /* Info.plist */,
 			);
@@ -141,6 +202,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C902A41C1DE9F15A00566F39 /* FipeOfertasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C902A4261DE9F15B00566F39 /* Build configuration list for PBXNativeTarget "FipeOfertasUITests" */;
+			buildPhases = (
+				C902A4191DE9F15A00566F39 /* Sources */,
+				C902A41A1DE9F15A00566F39 /* Frameworks */,
+				C902A41B1DE9F15A00566F39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C902A4231DE9F15B00566F39 /* PBXTargetDependency */,
+			);
+			name = FipeOfertasUITests;
+			productName = FipeOfertasUITests;
+			productReference = C902A41D1DE9F15A00566F39 /* FipeOfertasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C91635071DE9CDA0006B3B8E /* FipeOfertasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C916350F1DE9CDA1006B3B8E /* Build configuration list for PBXNativeTarget "FipeOfertasTests" */;
+			buildPhases = (
+				C91635041DE9CDA0006B3B8E /* Sources */,
+				C91635051DE9CDA0006B3B8E /* Frameworks */,
+				C91635061DE9CDA0006B3B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C916350E1DE9CDA1006B3B8E /* PBXTargetDependency */,
+			);
+			name = FipeOfertasTests;
+			productName = FipeOfertasTests;
+			productReference = C91635081DE9CDA0006B3B8E /* FipeOfertasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		EBBC40F91DE0E2350028D589 /* FipeOfertas */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBBC410C1DE0E2350028D589 /* Build configuration list for PBXNativeTarget "FipeOfertas" */;
@@ -167,13 +264,22 @@
 		EBBC40F21DE0E2350028D589 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0810;
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Gaspar Teixeira";
 				TargetAttributes = {
+					C902A41C1DE9F15A00566F39 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBBC40F91DE0E2350028D589;
+					};
+					C91635071DE9CDA0006B3B8E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBBC40F91DE0E2350028D589;
+					};
 					EBBC40F91DE0E2350028D589 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 66TFW9PS7V;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -192,18 +298,34 @@
 			projectRoot = "";
 			targets = (
 				EBBC40F91DE0E2350028D589 /* FipeOfertas */,
+				C91635071DE9CDA0006B3B8E /* FipeOfertasTests */,
+				C902A41C1DE9F15A00566F39 /* FipeOfertasUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C902A41B1DE9F15A00566F39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91635061DE9CDA0006B3B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EBBC40F81DE0E2350028D589 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EBBC41081DE0E2350028D589 /* LaunchScreen.storyboard in Resources */,
 				EBBC41051DE0E2350028D589 /* Assets.xcassets in Resources */,
-				EB303C011DE7BF9500FFB82A /* fipeofertas.png in Resources */,
+				C902A4281DE9F63C00566F39 /* fipeofertas.png in Resources */,
 				EBBC41031DE0E2350028D589 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +381,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C902A4191DE9F15A00566F39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C902A4201DE9F15A00566F39 /* FipeOfertasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91635041DE9CDA0006B3B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C916350B1DE9CDA1006B3B8E /* FipeOfertasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EBBC40F61DE0E2350028D589 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,6 +412,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C902A4231DE9F15B00566F39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBBC40F91DE0E2350028D589 /* FipeOfertas */;
+			targetProxy = C902A4221DE9F15B00566F39 /* PBXContainerItemProxy */;
+		};
+		C916350E1DE9CDA1006B3B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBBC40F91DE0E2350028D589 /* FipeOfertas */;
+			targetProxy = C916350D1DE9CDA1006B3B8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EBBC41011DE0E2350028D589 /* Main.storyboard */ = {
@@ -295,6 +446,56 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C902A4241DE9F15B00566F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FipeOfertasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.BR.Dodo.FipeOfertasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FipeOfertas;
+			};
+			name = Debug;
+		};
+		C902A4251DE9F15B00566F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FipeOfertasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.BR.Dodo.FipeOfertasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FipeOfertas;
+			};
+			name = Release;
+		};
+		C91635101DE9CDA1006B3B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FipeOfertasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.BR.Dodo.FipeOfertasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FipeOfertas.app/FipeOfertas";
+			};
+			name = Debug;
+		};
+		C91635111DE9CDA1006B3B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FipeOfertasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.BR.Dodo.FipeOfertasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FipeOfertas.app/FipeOfertas";
+			};
+			name = Release;
+		};
 		EBBC410A1DE0E2350028D589 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -336,7 +537,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -381,7 +582,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -396,8 +597,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 66TFW9PS7V;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FipeOfertas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.senacrs.edm.FipeOfertas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,8 +613,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 66TFW9PS7V;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FipeOfertas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.senacrs.edm.FipeOfertas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +626,23 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C902A4261DE9F15B00566F39 /* Build configuration list for PBXNativeTarget "FipeOfertasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C902A4241DE9F15B00566F39 /* Debug */,
+				C902A4251DE9F15B00566F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C916350F1DE9CDA1006B3B8E /* Build configuration list for PBXNativeTarget "FipeOfertasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91635101DE9CDA1006B3B8E /* Debug */,
+				C91635111DE9CDA1006B3B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EBBC40F51DE0E2350028D589 /* Build configuration list for PBXProject "FipeOfertas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
