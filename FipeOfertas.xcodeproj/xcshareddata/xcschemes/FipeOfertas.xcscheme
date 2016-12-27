@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -33,7 +33,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C91635071DE9CDA0006B3B8E"
+               BlueprintIdentifier = "C934C1171DF2F27C00427E20"
                BuildableName = "FipeOfertasTests.xctest"
                BlueprintName = "FipeOfertasTests"
                ReferencedContainer = "container:FipeOfertas.xcodeproj">
@@ -43,7 +43,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C902A41C1DE9F15A00566F39"
+               BlueprintIdentifier = "C934C1251DF2F28500427E20"
                BuildableName = "FipeOfertasUITests.xctest"
                BlueprintName = "FipeOfertasUITests"
                ReferencedContainer = "container:FipeOfertas.xcodeproj">

@@ -10,11 +10,10 @@ import Foundation
 
 struct Type {
     
-    let idType: Int?
+    let idType: String?
     let name: String?
     let yearFuel: String?
     let brand: String?
-    let key: String?
     let fipeCode: String?
     let fipeBrand: String?
 }

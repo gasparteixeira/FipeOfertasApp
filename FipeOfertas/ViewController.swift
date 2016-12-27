@@ -7,26 +7,37 @@
 //
 
 import UIKit
-import UIDropDown
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     @IBOutlet weak var segmented: UISegmentedControl!
     
+    @IBOutlet weak var pickerView: UIPickerView!
+    
+    
+    
+    
     var brands = [Brand]()
-    var ordenedBrands = [String]()
-    var drop: UIDropDown!
+    
+    var pickerData: Brand!
+    
+    var typeVehicle: String = "carros"
     
     @IBOutlet weak var label: UILabel!
     
     func loadBrand() {
+        
         let vehicleManager = VehicleManager()
         
+        vehicleManager.typeVehicle = typeVehicle
+
         vehicleManager.loadBrands{ (brands, error) in
             if error == nil {
                 if let array = brands {
                     self.brands = array
-                    self.createDropDown()
+                    self.pickerData = array[0]
+                    self.pickerView.dataSource = self
+                    self.pickerView.delegate = self
                 }
             }
         }
@@ -35,48 +46,65 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         loadBrand()
+        self.title = "Marcas"
+    }
+    
+    
+    @IBAction func mostraMarca(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "showMarca", sender: pickerData)
+    }
 
-    }
     
-    func createDropDown() {
-        for brand in self.brands {
-            self.ordenedBrands.append(brand.name!)
-        }
-        
-        drop = UIDropDown(frame: CGRect(x: 0, y: 0, width: 280, height: 40))
-        drop.center = CGPoint(x: self.view.frame.midX, y: self.view.frame.midY - 50)
-        drop.placeholder = "Selecione a marca..."
-        drop.options = self.ordenedBrands
-        drop.borderColor = .darkGray
-        drop.tableHeight = self.view.frame.midY
-        drop.hideOptionsWhenSelect = true
-        drop.rowHeight = 40
-        drop.didSelect { (option, index) in
-            self.label?.text = "You just select \(option)  at index: \(index)"
-            print("You just select: \(option) at index: \(index)")
-        }
-        self.view.addSubview(drop)
-        
-        segmented.addTarget(self, action: #selector(ViewController.segmentedDidChange(_:)), for: .valueChanged)
-    }
-    
-    func segmentedDidChange(_ sender: UISegmentedControl) {
+    @IBAction func sementedChanged(_ sender: UISegmentedControl) {
         let index = sender.selectedSegmentIndex
-        drop.animationType = UIDropDownAnimationType(rawValue: index)!
-        for v in view.subviews{
-            if v is UIDropDown {
-               v.removeFromSuperview()
-            }
+        switch index {
+        case 1:
+            typeVehicle = "motos"
+        case 2:
+            typeVehicle = "caminhoes"
+        default:
+            typeVehicle = "carros"
         }
         loadBrand()
+        
+    }
+    func segmentedDidChange(_ sender: UISegmentedControl) {
+       
     }
     
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return self.brands[row].name
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return brands.count
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        self.pickerData = self.brands[row]
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 
+        if segue.identifier == "showMarca" {
+            let marcaViewController = segue.destination  as! MarcaViewController
+
+            if let brand = sender as? Brand {
+                marcaViewController.brandSelected = brand
+            }
+        }
+    }
 
 }
 

@@ -2,7 +2,7 @@
 //  FipeOfertasUITests.swift
 //  FipeOfertasUITests
 //
-//  Created by Douglas Salazar on 26/11/16.
+//  Created by Douglas Salazar on 03/12/16.
 //  Copyright © 2016 Gaspar Teixeira. All rights reserved.
 //
 
@@ -28,9 +28,47 @@ class FipeOfertasUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    
+    
+    func testFipeOfertas(){
+        
+        let app = XCUIApplication()
+        app.launch()
+        app.pickerWheels.element.adjust(toPickerWheelValue: "FIAT")
+        
+        XCUIApplication().buttons["btnPesquisar"].tap()
+        
+        //XCTAssertEqual(app.tables.cells.count, 3)
+        
+        
+        app.tables.cells.element(boundBy: 16).tap()
+        app.tables.cells.element(boundBy: 0).tap()
+        app.tables.cells.element(boundBy: 0).tap()
+        
+        
+
+        
+        
+        //XCTAssert(app.staticTexts["Darth Maul"].exists, "lblName")
+        //XCTAssert(app.images["darth_maul"].exists, "imgPhoto")
+        
+        //app.navigationBars["Episode I"].buttons["Star Wars"].tap()
+        
+        
+        
+        
+
+        
+        
+    }
+    
+    func testPrototipo(){
+        
+        let app = XCUIApplication()
+        app.pickerWheels["AUDI"].tap()
+        app.buttons["btnPesquisar"].tap()
+        
     }
     
 }

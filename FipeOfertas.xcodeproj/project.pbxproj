@@ -7,31 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047DE6F697274CB03AD6F0FE /* Pods_FipeOfertas_FipeOfertasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9956E0FA81B7114D27AEAF93 /* Pods_FipeOfertas_FipeOfertasTests.framework */; };
 		337C0D2D62B4AAF9779D58C4 /* Pods_FipeOfertas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246A7A0CEE3B6859CD04F376 /* Pods_FipeOfertas.framework */; };
-		C902A4201DE9F15A00566F39 /* FipeOfertasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902A41F1DE9F15A00566F39 /* FipeOfertasUITests.swift */; };
-		C902A4281DE9F63C00566F39 /* fipeofertas.png in Resources */ = {isa = PBXBuildFile; fileRef = C902A4271DE9F63C00566F39 /* fipeofertas.png */; };
-		C916350B1DE9CDA1006B3B8E /* FipeOfertasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C916350A1DE9CDA1006B3B8E /* FipeOfertasTests.swift */; };
-		EB45FCC71DE27154006A5CA8 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB45FCC61DE27154006A5CA8 /* Brand.swift */; };
-		EB45FCC91DE273F3006A5CA8 /* VehicleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB45FCC81DE273F3006A5CA8 /* VehicleManager.swift */; };
-		EB45FCCB1DE286B4006A5CA8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB45FCCA1DE286B4006A5CA8 /* Model.swift */; };
-		EB45FCCD1DE28821006A5CA8 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB45FCCC1DE28821006A5CA8 /* Type.swift */; };
-		EB45FCCF1DE28938006A5CA8 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB45FCCE1DE28938006A5CA8 /* Vehicle.swift */; };
+		5D19CD031DC4AFD5B6543A41 /* Pods_FipeOfertas_FipeOfertasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00ECDD3597D7BDF10D4428D /* Pods_FipeOfertas_FipeOfertasUITests.framework */; };
+		C934C11B1DF2F27C00427E20 /* FipeOfertasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C934C11A1DF2F27C00427E20 /* FipeOfertasTests.swift */; };
+		C934C1291DF2F28600427E20 /* FipeOfertasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C934C1281DF2F28600427E20 /* FipeOfertasUITests.swift */; };
+		C99242571DFC58780068D5E4 /* MarcaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242511DFC58780068D5E4 /* MarcaViewController.swift */; };
+		C99242581DFC58780068D5E4 /* MarcaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242511DFC58780068D5E4 /* MarcaViewController.swift */; };
+		C99242591DFC58780068D5E4 /* MarcaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242511DFC58780068D5E4 /* MarcaViewController.swift */; };
+		C992425A1DFC58780068D5E4 /* ModeloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242521DFC58780068D5E4 /* ModeloViewController.swift */; };
+		C992425B1DFC58780068D5E4 /* ModeloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242521DFC58780068D5E4 /* ModeloViewController.swift */; };
+		C992425C1DFC58780068D5E4 /* ModeloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242521DFC58780068D5E4 /* ModeloViewController.swift */; };
+		C992425D1DFC58780068D5E4 /* TiposViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242531DFC58780068D5E4 /* TiposViewController.swift */; };
+		C992425E1DFC58780068D5E4 /* TiposViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242531DFC58780068D5E4 /* TiposViewController.swift */; };
+		C992425F1DFC58780068D5E4 /* TiposViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242531DFC58780068D5E4 /* TiposViewController.swift */; };
+		C99242601DFC58780068D5E4 /* VeiculoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242541DFC58780068D5E4 /* VeiculoViewController.swift */; };
+		C99242611DFC58780068D5E4 /* VeiculoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242541DFC58780068D5E4 /* VeiculoViewController.swift */; };
+		C99242621DFC58780068D5E4 /* VeiculoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242541DFC58780068D5E4 /* VeiculoViewController.swift */; };
+		C99242631DFC58780068D5E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242551DFC58780068D5E4 /* ViewController.swift */; };
+		C99242641DFC58780068D5E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242551DFC58780068D5E4 /* ViewController.swift */; };
+		C99242651DFC58780068D5E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242551DFC58780068D5E4 /* ViewController.swift */; };
+		C99242661DFC58780068D5E4 /* ViewControllerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242561DFC58780068D5E4 /* ViewControllerUtils.swift */; };
+		C99242671DFC58780068D5E4 /* ViewControllerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242561DFC58780068D5E4 /* ViewControllerUtils.swift */; };
+		C99242681DFC58780068D5E4 /* ViewControllerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242561DFC58780068D5E4 /* ViewControllerUtils.swift */; };
+		C992426E1DFC58B50068D5E4 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242691DFC58B50068D5E4 /* Brand.swift */; };
+		C992426F1DFC58B50068D5E4 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242691DFC58B50068D5E4 /* Brand.swift */; };
+		C99242701DFC58B50068D5E4 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99242691DFC58B50068D5E4 /* Brand.swift */; };
+		C99242711DFC58B50068D5E4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992426A1DFC58B50068D5E4 /* Model.swift */; };
+		C99242721DFC58B50068D5E4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992426A1DFC58B50068D5E4 /* Model.swift */; };
+		C99242731DFC58B50068D5E4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992426A1DFC58B50068D5E4 /* Model.swift */; };
+		C99242741DFC58B50068D5E4 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992426B1DFC58B50068D5E4 /* Type.swift */; };
+		C99242751DFC58B50068D5E4 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992426B1DFC58B50068D5E4 /* Type.swift */; };
+		C99242761DFC58B50068D5E4 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992426B1DFC58B50068D5E4 /* Type.swift */; };
+		C99242771DFC58B50068D5E4 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992426C1DFC58B50068D5E4 /* Vehicle.swift */; };
+		C99242781DFC58B50068D5E4 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992426C1DFC58B50068D5E4 /* Vehicle.swift */; };
+		C99242791DFC58B50068D5E4 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992426C1DFC58B50068D5E4 /* Vehicle.swift */; };
+		C992427A1DFC58B50068D5E4 /* VehicleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992426D1DFC58B50068D5E4 /* VehicleManager.swift */; };
+		C992427B1DFC58B50068D5E4 /* VehicleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992426D1DFC58B50068D5E4 /* VehicleManager.swift */; };
+		C992427C1DFC58B50068D5E4 /* VehicleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992426D1DFC58B50068D5E4 /* VehicleManager.swift */; };
+		C992427E1DFC67640068D5E4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992427D1DFC67640068D5E4 /* Extensions.swift */; };
+		C992427F1DFC67640068D5E4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992427D1DFC67640068D5E4 /* Extensions.swift */; };
+		C99242801DFC67640068D5E4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992427D1DFC67640068D5E4 /* Extensions.swift */; };
+		C9A5C91F1E034C2700B9E197 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5C91E1E034C2700B9E197 /* Offer.swift */; };
+		C9A5C9201E034C2700B9E197 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5C91E1E034C2700B9E197 /* Offer.swift */; };
+		C9A5C9211E034C2700B9E197 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5C91E1E034C2700B9E197 /* Offer.swift */; };
+		C9A5C9231E034C5200B9E197 /* OfertaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5C9221E034C5200B9E197 /* OfertaViewController.swift */; };
+		C9A5C9241E034C5200B9E197 /* OfertaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5C9221E034C5200B9E197 /* OfertaViewController.swift */; };
+		C9A5C9251E034C5200B9E197 /* OfertaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5C9221E034C5200B9E197 /* OfertaViewController.swift */; };
+		C9A5C9271E034CA200B9E197 /* ShowOfertaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5C9261E034CA200B9E197 /* ShowOfertaViewController.swift */; };
+		C9A5C9281E034CA200B9E197 /* ShowOfertaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5C9261E034CA200B9E197 /* ShowOfertaViewController.swift */; };
+		C9A5C9291E034CA200B9E197 /* ShowOfertaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5C9261E034CA200B9E197 /* ShowOfertaViewController.swift */; };
+		C9C79AD91DED1023002DB6AF /* fipeofertas.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C79AD61DED1023002DB6AF /* fipeofertas.png */; };
+		C9C79ADA1DED1023002DB6AF /* ic_attach_money.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C79AD71DED1023002DB6AF /* ic_attach_money.png */; };
+		C9C79ADB1DED1023002DB6AF /* ic_favorite_border.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C79AD81DED1023002DB6AF /* ic_favorite_border.png */; };
+		C9C79ADD1DED111A002DB6AF /* ic_filter_list.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C79ADC1DED111A002DB6AF /* ic_filter_list.png */; };
 		EBBC40FE1DE0E2350028D589 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBC40FD1DE0E2350028D589 /* AppDelegate.swift */; };
-		EBBC41001DE0E2350028D589 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBC40FF1DE0E2350028D589 /* ViewController.swift */; };
 		EBBC41031DE0E2350028D589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBC41011DE0E2350028D589 /* Main.storyboard */; };
 		EBBC41051DE0E2350028D589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBBC41041DE0E2350028D589 /* Assets.xcassets */; };
 		EBBC41081DE0E2350028D589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBC41061DE0E2350028D589 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C902A4221DE9F15B00566F39 /* PBXContainerItemProxy */ = {
+		C934C11D1DF2F27C00427E20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EBBC40F21DE0E2350028D589 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EBBC40F91DE0E2350028D589;
 			remoteInfo = FipeOfertas;
 		};
-		C916350D1DE9CDA1006B3B8E /* PBXContainerItemProxy */ = {
+		C934C12B1DF2F28600427E20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EBBC40F21DE0E2350028D589 /* Project object */;
 			proxyType = 1;
@@ -42,23 +86,41 @@
 
 /* Begin PBXFileReference section */
 		246A7A0CEE3B6859CD04F376 /* Pods_FipeOfertas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FipeOfertas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		281AC2197C3527C716643CCD /* Pods-FipeOfertas-FipeOfertasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FipeOfertas-FipeOfertasUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FipeOfertas-FipeOfertasUITests/Pods-FipeOfertas-FipeOfertasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		528B40B014AEB1C41FE788CE /* Pods-FipeOfertas-FipeOfertasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FipeOfertas-FipeOfertasUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FipeOfertas-FipeOfertasUITests/Pods-FipeOfertas-FipeOfertasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		67B8748F12FA7F22B9D63632 /* Pods-FipeOfertas-FipeOfertasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FipeOfertas-FipeOfertasTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FipeOfertas-FipeOfertasTests/Pods-FipeOfertas-FipeOfertasTests.release.xcconfig"; sourceTree = "<group>"; };
+		9956E0FA81B7114D27AEAF93 /* Pods_FipeOfertas_FipeOfertasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FipeOfertas_FipeOfertasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C7914A703A1D246C708377 /* Pods-FipeOfertas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FipeOfertas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FipeOfertas/Pods-FipeOfertas.debug.xcconfig"; sourceTree = "<group>"; };
+		B00ECDD3597D7BDF10D4428D /* Pods_FipeOfertas_FipeOfertasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FipeOfertas_FipeOfertasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F7DB052898F8D2D132C91F /* Pods-FipeOfertas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FipeOfertas.release.xcconfig"; path = "Pods/Target Support Files/Pods-FipeOfertas/Pods-FipeOfertas.release.xcconfig"; sourceTree = "<group>"; };
-		C902A41D1DE9F15A00566F39 /* FipeOfertasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FipeOfertasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C902A41F1DE9F15A00566F39 /* FipeOfertasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FipeOfertasUITests.swift; sourceTree = "<group>"; };
-		C902A4211DE9F15B00566F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C902A4271DE9F63C00566F39 /* fipeofertas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fipeofertas.png; path = ../../../Downloads/fipeofertas.png; sourceTree = "<group>"; };
-		C91635081DE9CDA0006B3B8E /* FipeOfertasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FipeOfertasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C916350A1DE9CDA1006B3B8E /* FipeOfertasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FipeOfertasTests.swift; sourceTree = "<group>"; };
-		C916350C1DE9CDA1006B3B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB45FCC61DE27154006A5CA8 /* Brand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
-		EB45FCC81DE273F3006A5CA8 /* VehicleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleManager.swift; sourceTree = "<group>"; };
-		EB45FCCA1DE286B4006A5CA8 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		EB45FCCC1DE28821006A5CA8 /* Type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
-		EB45FCCE1DE28938006A5CA8 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		C1C468735BF9F95CA004289F /* Pods-FipeOfertas-FipeOfertasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FipeOfertas-FipeOfertasTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FipeOfertas-FipeOfertasTests/Pods-FipeOfertas-FipeOfertasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C934C1181DF2F27C00427E20 /* FipeOfertasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FipeOfertasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C934C11A1DF2F27C00427E20 /* FipeOfertasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FipeOfertasTests.swift; sourceTree = "<group>"; };
+		C934C11C1DF2F27C00427E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C934C1261DF2F28500427E20 /* FipeOfertasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FipeOfertasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C934C1281DF2F28600427E20 /* FipeOfertasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FipeOfertasUITests.swift; sourceTree = "<group>"; };
+		C934C12A1DF2F28600427E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99242511DFC58780068D5E4 /* MarcaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarcaViewController.swift; sourceTree = "<group>"; };
+		C99242521DFC58780068D5E4 /* ModeloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeloViewController.swift; sourceTree = "<group>"; };
+		C99242531DFC58780068D5E4 /* TiposViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiposViewController.swift; sourceTree = "<group>"; };
+		C99242541DFC58780068D5E4 /* VeiculoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeiculoViewController.swift; sourceTree = "<group>"; };
+		C99242551DFC58780068D5E4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C99242561DFC58780068D5E4 /* ViewControllerUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerUtils.swift; sourceTree = "<group>"; };
+		C99242691DFC58B50068D5E4 /* Brand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		C992426A1DFC58B50068D5E4 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C992426B1DFC58B50068D5E4 /* Type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
+		C992426C1DFC58B50068D5E4 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		C992426D1DFC58B50068D5E4 /* VehicleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleManager.swift; sourceTree = "<group>"; };
+		C992427D1DFC67640068D5E4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C9A5C91E1E034C2700B9E197 /* Offer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		C9A5C9221E034C5200B9E197 /* OfertaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfertaViewController.swift; sourceTree = "<group>"; };
+		C9A5C9261E034CA200B9E197 /* ShowOfertaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowOfertaViewController.swift; sourceTree = "<group>"; };
+		C9C79AD61DED1023002DB6AF /* fipeofertas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fipeofertas.png; sourceTree = SOURCE_ROOT; };
+		C9C79AD71DED1023002DB6AF /* ic_attach_money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_attach_money.png; sourceTree = SOURCE_ROOT; };
+		C9C79AD81DED1023002DB6AF /* ic_favorite_border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_favorite_border.png; sourceTree = SOURCE_ROOT; };
+		C9C79ADC1DED111A002DB6AF /* ic_filter_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_filter_list.png; sourceTree = SOURCE_ROOT; };
 		EBBC40FA1DE0E2350028D589 /* FipeOfertas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FipeOfertas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBBC40FD1DE0E2350028D589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EBBC40FF1DE0E2350028D589 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EBBC41021DE0E2350028D589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBBC41041DE0E2350028D589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBBC41071DE0E2350028D589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,17 +128,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C902A41A1DE9F15A00566F39 /* Frameworks */ = {
+		C934C1151DF2F27C00427E20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047DE6F697274CB03AD6F0FE /* Pods_FipeOfertas_FipeOfertasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C91635051DE9CDA0006B3B8E /* Frameworks */ = {
+		C934C1231DF2F28500427E20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D19CD031DC4AFD5B6543A41 /* Pods_FipeOfertas_FipeOfertasUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +160,10 @@
 			children = (
 				A8C7914A703A1D246C708377 /* Pods-FipeOfertas.debug.xcconfig */,
 				B7F7DB052898F8D2D132C91F /* Pods-FipeOfertas.release.xcconfig */,
+				528B40B014AEB1C41FE788CE /* Pods-FipeOfertas-FipeOfertasUITests.debug.xcconfig */,
+				281AC2197C3527C716643CCD /* Pods-FipeOfertas-FipeOfertasUITests.release.xcconfig */,
+				C1C468735BF9F95CA004289F /* Pods-FipeOfertas-FipeOfertasTests.debug.xcconfig */,
+				67B8748F12FA7F22B9D63632 /* Pods-FipeOfertas-FipeOfertasTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -104,34 +172,47 @@
 			isa = PBXGroup;
 			children = (
 				246A7A0CEE3B6859CD04F376 /* Pods_FipeOfertas.framework */,
+				B00ECDD3597D7BDF10D4428D /* Pods_FipeOfertas_FipeOfertasUITests.framework */,
+				9956E0FA81B7114D27AEAF93 /* Pods_FipeOfertas_FipeOfertasTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C902A41E1DE9F15A00566F39 /* FipeOfertasUITests */ = {
+		C934C1191DF2F27C00427E20 /* FipeOfertasTests */ = {
 			isa = PBXGroup;
 			children = (
-				C902A41F1DE9F15A00566F39 /* FipeOfertasUITests.swift */,
-				C902A4211DE9F15B00566F39 /* Info.plist */,
+				C934C11A1DF2F27C00427E20 /* FipeOfertasTests.swift */,
+				C934C11C1DF2F27C00427E20 /* Info.plist */,
+			);
+			path = FipeOfertasTests;
+			sourceTree = "<group>";
+		};
+		C934C1271DF2F28600427E20 /* FipeOfertasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C934C1281DF2F28600427E20 /* FipeOfertasUITests.swift */,
+				C934C12A1DF2F28600427E20 /* Info.plist */,
 			);
 			path = FipeOfertasUITests;
 			sourceTree = "<group>";
 		};
-		C91635091DE9CDA1006B3B8E /* FipeOfertasTests */ = {
+		C938F6801DEC8F4600D6AB01 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				C916350A1DE9CDA1006B3B8E /* FipeOfertasTests.swift */,
-				C916350C1DE9CDA1006B3B8E /* Info.plist */,
+				C9C79ADC1DED111A002DB6AF /* ic_filter_list.png */,
+				C9C79AD61DED1023002DB6AF /* fipeofertas.png */,
+				C9C79AD71DED1023002DB6AF /* ic_attach_money.png */,
+				C9C79AD81DED1023002DB6AF /* ic_favorite_border.png */,
 			);
-			path = FipeOfertasTests;
+			name = Images;
 			sourceTree = "<group>";
 		};
 		EBBC40F11DE0E2350028D589 = {
 			isa = PBXGroup;
 			children = (
 				EBBC40FC1DE0E2350028D589 /* FipeOfertas */,
-				C91635091DE9CDA1006B3B8E /* FipeOfertasTests */,
-				C902A41E1DE9F15A00566F39 /* FipeOfertasUITests */,
+				C934C1191DF2F27C00427E20 /* FipeOfertasTests */,
+				C934C1271DF2F28600427E20 /* FipeOfertasUITests */,
 				EBBC40FB1DE0E2350028D589 /* Products */,
 				889E3E268CFF559E24C6367B /* Pods */,
 				8C91602A3619A83C9CDEA4BD /* Frameworks */,
@@ -142,8 +223,8 @@
 			isa = PBXGroup;
 			children = (
 				EBBC40FA1DE0E2350028D589 /* FipeOfertas.app */,
-				C91635081DE9CDA0006B3B8E /* FipeOfertasTests.xctest */,
-				C902A41D1DE9F15A00566F39 /* FipeOfertasUITests.xctest */,
+				C934C1181DF2F27C00427E20 /* FipeOfertasTests.xctest */,
+				C934C1261DF2F28500427E20 /* FipeOfertasUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +232,7 @@
 		EBBC40FC1DE0E2350028D589 /* FipeOfertas */ = {
 			isa = PBXGroup;
 			children = (
+				C938F6801DEC8F4600D6AB01 /* Images */,
 				EBBC41121DE0E2900028D589 /* Model */,
 				EBBC410F1DE0E2620028D589 /* Suport Files */,
 				EBBC41111DE0E2790028D589 /* Controller */,
@@ -162,8 +244,8 @@
 		EBBC410F1DE0E2620028D589 /* Suport Files */ = {
 			isa = PBXGroup;
 			children = (
-				C902A4271DE9F63C00566F39 /* fipeofertas.png */,
 				EBBC40FD1DE0E2350028D589 /* AppDelegate.swift */,
+				C992427D1DFC67640068D5E4 /* Extensions.swift */,
 				EBBC41041DE0E2350028D589 /* Assets.xcassets */,
 				EBBC41091DE0E2350028D589 /* Info.plist */,
 			);
@@ -182,7 +264,14 @@
 		EBBC41111DE0E2790028D589 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				EBBC40FF1DE0E2350028D589 /* ViewController.swift */,
+				C9A5C9261E034CA200B9E197 /* ShowOfertaViewController.swift */,
+				C9A5C9221E034C5200B9E197 /* OfertaViewController.swift */,
+				C99242511DFC58780068D5E4 /* MarcaViewController.swift */,
+				C99242521DFC58780068D5E4 /* ModeloViewController.swift */,
+				C99242531DFC58780068D5E4 /* TiposViewController.swift */,
+				C99242541DFC58780068D5E4 /* VeiculoViewController.swift */,
+				C99242551DFC58780068D5E4 /* ViewController.swift */,
+				C99242561DFC58780068D5E4 /* ViewControllerUtils.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -190,11 +279,12 @@
 		EBBC41121DE0E2900028D589 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EB45FCC61DE27154006A5CA8 /* Brand.swift */,
-				EB45FCC81DE273F3006A5CA8 /* VehicleManager.swift */,
-				EB45FCCA1DE286B4006A5CA8 /* Model.swift */,
-				EB45FCCC1DE28821006A5CA8 /* Type.swift */,
-				EB45FCCE1DE28938006A5CA8 /* Vehicle.swift */,
+				C9A5C91E1E034C2700B9E197 /* Offer.swift */,
+				C99242691DFC58B50068D5E4 /* Brand.swift */,
+				C992426A1DFC58B50068D5E4 /* Model.swift */,
+				C992426B1DFC58B50068D5E4 /* Type.swift */,
+				C992426C1DFC58B50068D5E4 /* Vehicle.swift */,
+				C992426D1DFC58B50068D5E4 /* VehicleManager.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -202,41 +292,47 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C902A41C1DE9F15A00566F39 /* FipeOfertasUITests */ = {
+		C934C1171DF2F27C00427E20 /* FipeOfertasTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C902A4261DE9F15B00566F39 /* Build configuration list for PBXNativeTarget "FipeOfertasUITests" */;
+			buildConfigurationList = C934C1211DF2F27C00427E20 /* Build configuration list for PBXNativeTarget "FipeOfertasTests" */;
 			buildPhases = (
-				C902A4191DE9F15A00566F39 /* Sources */,
-				C902A41A1DE9F15A00566F39 /* Frameworks */,
-				C902A41B1DE9F15A00566F39 /* Resources */,
+				F2806925C504449105290FD7 /* [CP] Check Pods Manifest.lock */,
+				C934C1141DF2F27C00427E20 /* Sources */,
+				C934C1151DF2F27C00427E20 /* Frameworks */,
+				C934C1161DF2F27C00427E20 /* Resources */,
+				D2FE8857CB8F1A862D661FA3 /* [CP] Embed Pods Frameworks */,
+				89336EC798F2F3538844C998 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C902A4231DE9F15B00566F39 /* PBXTargetDependency */,
-			);
-			name = FipeOfertasUITests;
-			productName = FipeOfertasUITests;
-			productReference = C902A41D1DE9F15A00566F39 /* FipeOfertasUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		C91635071DE9CDA0006B3B8E /* FipeOfertasTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C916350F1DE9CDA1006B3B8E /* Build configuration list for PBXNativeTarget "FipeOfertasTests" */;
-			buildPhases = (
-				C91635041DE9CDA0006B3B8E /* Sources */,
-				C91635051DE9CDA0006B3B8E /* Frameworks */,
-				C91635061DE9CDA0006B3B8E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C916350E1DE9CDA1006B3B8E /* PBXTargetDependency */,
+				C934C11E1DF2F27C00427E20 /* PBXTargetDependency */,
 			);
 			name = FipeOfertasTests;
 			productName = FipeOfertasTests;
-			productReference = C91635081DE9CDA0006B3B8E /* FipeOfertasTests.xctest */;
+			productReference = C934C1181DF2F27C00427E20 /* FipeOfertasTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C934C1251DF2F28500427E20 /* FipeOfertasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C934C12D1DF2F28600427E20 /* Build configuration list for PBXNativeTarget "FipeOfertasUITests" */;
+			buildPhases = (
+				6280534C53C2653C2FEAFB90 /* [CP] Check Pods Manifest.lock */,
+				C934C1221DF2F28500427E20 /* Sources */,
+				C934C1231DF2F28500427E20 /* Frameworks */,
+				C934C1241DF2F28500427E20 /* Resources */,
+				F06AB537B6B8F45A23FC6B3D /* [CP] Embed Pods Frameworks */,
+				DDC897ACA8D5238716709806 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C934C12C1DF2F28600427E20 /* PBXTargetDependency */,
+			);
+			name = FipeOfertasUITests;
+			productName = FipeOfertasUITests;
+			productReference = C934C1261DF2F28500427E20 /* FipeOfertasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		EBBC40F91DE0E2350028D589 /* FipeOfertas */ = {
 			isa = PBXNativeTarget;
@@ -264,17 +360,17 @@
 		EBBC40F21DE0E2350028D589 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
+				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Gaspar Teixeira";
 				TargetAttributes = {
-					C902A41C1DE9F15A00566F39 = {
-						CreatedOnToolsVersion = 8.0;
+					C934C1171DF2F27C00427E20 = {
+						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = EBBC40F91DE0E2350028D589;
 					};
-					C91635071DE9CDA0006B3B8E = {
-						CreatedOnToolsVersion = 8.0;
+					C934C1251DF2F28500427E20 = {
+						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = EBBC40F91DE0E2350028D589;
 					};
@@ -298,21 +394,21 @@
 			projectRoot = "";
 			targets = (
 				EBBC40F91DE0E2350028D589 /* FipeOfertas */,
-				C91635071DE9CDA0006B3B8E /* FipeOfertasTests */,
-				C902A41C1DE9F15A00566F39 /* FipeOfertasUITests */,
+				C934C1171DF2F27C00427E20 /* FipeOfertasTests */,
+				C934C1251DF2F28500427E20 /* FipeOfertasUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C902A41B1DE9F15A00566F39 /* Resources */ = {
+		C934C1161DF2F27C00427E20 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C91635061DE9CDA0006B3B8E /* Resources */ = {
+		C934C1241DF2F28500427E20 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,9 +420,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBBC41081DE0E2350028D589 /* LaunchScreen.storyboard in Resources */,
+				C9C79ADB1DED1023002DB6AF /* ic_favorite_border.png in Resources */,
+				C9C79ADD1DED111A002DB6AF /* ic_filter_list.png in Resources */,
 				EBBC41051DE0E2350028D589 /* Assets.xcassets in Resources */,
-				C902A4281DE9F63C00566F39 /* fipeofertas.png in Resources */,
+				C9C79AD91DED1023002DB6AF /* fipeofertas.png in Resources */,
 				EBBC41031DE0E2350028D589 /* Main.storyboard in Resources */,
+				C9C79ADA1DED1023002DB6AF /* ic_attach_money.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +447,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FipeOfertas/Pods-FipeOfertas-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6280534C53C2653C2FEAFB90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89336EC798F2F3538844C998 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FipeOfertas-FipeOfertasTests/Pods-FipeOfertas-FipeOfertasTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D1959CEB8A0CAE0F18A7279F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,6 +490,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2FE8857CB8F1A862D661FA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FipeOfertas-FipeOfertasTests/Pods-FipeOfertas-FipeOfertasTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDC897ACA8D5238716709806 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FipeOfertas-FipeOfertasUITests/Pods-FipeOfertas-FipeOfertasUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EA6456234744866BEE88D9CA /* [CP] Embed Pods Frameworks */ = {
@@ -378,22 +537,82 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FipeOfertas/Pods-FipeOfertas-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F06AB537B6B8F45A23FC6B3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FipeOfertas-FipeOfertasUITests/Pods-FipeOfertas-FipeOfertasUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2806925C504449105290FD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C902A4191DE9F15A00566F39 /* Sources */ = {
+		C934C1141DF2F27C00427E20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C902A4201DE9F15A00566F39 /* FipeOfertasUITests.swift in Sources */,
+				C9A5C9201E034C2700B9E197 /* Offer.swift in Sources */,
+				C99242721DFC58B50068D5E4 /* Model.swift in Sources */,
+				C99242641DFC58780068D5E4 /* ViewController.swift in Sources */,
+				C992427B1DFC58B50068D5E4 /* VehicleManager.swift in Sources */,
+				C934C11B1DF2F27C00427E20 /* FipeOfertasTests.swift in Sources */,
+				C99242671DFC58780068D5E4 /* ViewControllerUtils.swift in Sources */,
+				C99242581DFC58780068D5E4 /* MarcaViewController.swift in Sources */,
+				C99242751DFC58B50068D5E4 /* Type.swift in Sources */,
+				C992425E1DFC58780068D5E4 /* TiposViewController.swift in Sources */,
+				C992427F1DFC67640068D5E4 /* Extensions.swift in Sources */,
+				C9A5C9281E034CA200B9E197 /* ShowOfertaViewController.swift in Sources */,
+				C992426F1DFC58B50068D5E4 /* Brand.swift in Sources */,
+				C99242781DFC58B50068D5E4 /* Vehicle.swift in Sources */,
+				C9A5C9241E034C5200B9E197 /* OfertaViewController.swift in Sources */,
+				C99242611DFC58780068D5E4 /* VeiculoViewController.swift in Sources */,
+				C992425B1DFC58780068D5E4 /* ModeloViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C91635041DE9CDA0006B3B8E /* Sources */ = {
+		C934C1221DF2F28500427E20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C916350B1DE9CDA1006B3B8E /* FipeOfertasTests.swift in Sources */,
+				C9A5C9211E034C2700B9E197 /* Offer.swift in Sources */,
+				C99242731DFC58B50068D5E4 /* Model.swift in Sources */,
+				C99242651DFC58780068D5E4 /* ViewController.swift in Sources */,
+				C992427C1DFC58B50068D5E4 /* VehicleManager.swift in Sources */,
+				C934C1291DF2F28600427E20 /* FipeOfertasUITests.swift in Sources */,
+				C99242681DFC58780068D5E4 /* ViewControllerUtils.swift in Sources */,
+				C99242591DFC58780068D5E4 /* MarcaViewController.swift in Sources */,
+				C99242761DFC58B50068D5E4 /* Type.swift in Sources */,
+				C992425F1DFC58780068D5E4 /* TiposViewController.swift in Sources */,
+				C99242801DFC67640068D5E4 /* Extensions.swift in Sources */,
+				C9A5C9291E034CA200B9E197 /* ShowOfertaViewController.swift in Sources */,
+				C99242701DFC58B50068D5E4 /* Brand.swift in Sources */,
+				C99242791DFC58B50068D5E4 /* Vehicle.swift in Sources */,
+				C9A5C9251E034C5200B9E197 /* OfertaViewController.swift in Sources */,
+				C99242621DFC58780068D5E4 /* VeiculoViewController.swift in Sources */,
+				C992425C1DFC58780068D5E4 /* ModeloViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,28 +620,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBBC41001DE0E2350028D589 /* ViewController.swift in Sources */,
-				EB45FCC91DE273F3006A5CA8 /* VehicleManager.swift in Sources */,
+				C9A5C91F1E034C2700B9E197 /* Offer.swift in Sources */,
+				C99242711DFC58B50068D5E4 /* Model.swift in Sources */,
 				EBBC40FE1DE0E2350028D589 /* AppDelegate.swift in Sources */,
-				EB45FCC71DE27154006A5CA8 /* Brand.swift in Sources */,
-				EB45FCCF1DE28938006A5CA8 /* Vehicle.swift in Sources */,
-				EB45FCCB1DE286B4006A5CA8 /* Model.swift in Sources */,
-				EB45FCCD1DE28821006A5CA8 /* Type.swift in Sources */,
+				C992427A1DFC58B50068D5E4 /* VehicleManager.swift in Sources */,
+				C99242631DFC58780068D5E4 /* ViewController.swift in Sources */,
+				C992425A1DFC58780068D5E4 /* ModeloViewController.swift in Sources */,
+				C99242571DFC58780068D5E4 /* MarcaViewController.swift in Sources */,
+				C99242741DFC58B50068D5E4 /* Type.swift in Sources */,
+				C992425D1DFC58780068D5E4 /* TiposViewController.swift in Sources */,
+				C992427E1DFC67640068D5E4 /* Extensions.swift in Sources */,
+				C9A5C9271E034CA200B9E197 /* ShowOfertaViewController.swift in Sources */,
+				C992426E1DFC58B50068D5E4 /* Brand.swift in Sources */,
+				C99242771DFC58B50068D5E4 /* Vehicle.swift in Sources */,
+				C9A5C9231E034C5200B9E197 /* OfertaViewController.swift in Sources */,
+				C99242661DFC58780068D5E4 /* ViewControllerUtils.swift in Sources */,
+				C99242601DFC58780068D5E4 /* VeiculoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C902A4231DE9F15B00566F39 /* PBXTargetDependency */ = {
+		C934C11E1DF2F27C00427E20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EBBC40F91DE0E2350028D589 /* FipeOfertas */;
-			targetProxy = C902A4221DE9F15B00566F39 /* PBXContainerItemProxy */;
+			targetProxy = C934C11D1DF2F27C00427E20 /* PBXContainerItemProxy */;
 		};
-		C916350E1DE9CDA1006B3B8E /* PBXTargetDependency */ = {
+		C934C12C1DF2F28600427E20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EBBC40F91DE0E2350028D589 /* FipeOfertas */;
-			targetProxy = C916350D1DE9CDA1006B3B8E /* PBXContainerItemProxy */;
+			targetProxy = C934C12B1DF2F28600427E20 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -446,53 +674,61 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C902A4241DE9F15B00566F39 /* Debug */ = {
+		C934C11F1DF2F27C00427E20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C468735BF9F95CA004289F /* Pods-FipeOfertas-FipeOfertasTests.debug.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = FipeOfertasUITests/Info.plist;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FipeOfertasTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Com.BR.Dodo.FipeOfertasUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Com.BR.Dodo.FipeOfertasTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = FipeOfertas;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FipeOfertas.app/FipeOfertas";
 			};
 			name = Debug;
 		};
-		C902A4251DE9F15B00566F39 /* Release */ = {
+		C934C1201DF2F27C00427E20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B8748F12FA7F22B9D63632 /* Pods-FipeOfertas-FipeOfertasTests.release.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = FipeOfertasUITests/Info.plist;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FipeOfertasTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Com.BR.Dodo.FipeOfertasUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Com.BR.Dodo.FipeOfertasTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = FipeOfertas;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FipeOfertas.app/FipeOfertas";
 			};
 			name = Release;
 		};
-		C91635101DE9CDA1006B3B8E /* Debug */ = {
+		C934C12E1DF2F28600427E20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528B40B014AEB1C41FE788CE /* Pods-FipeOfertas-FipeOfertasUITests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = FipeOfertasTests/Info.plist;
+				INFOPLIST_FILE = FipeOfertasUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Com.BR.Dodo.FipeOfertasTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Com.BR.Dodo.FipeOfertasUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FipeOfertas.app/FipeOfertas";
+				TEST_TARGET_NAME = FipeOfertas;
 			};
 			name = Debug;
 		};
-		C91635111DE9CDA1006B3B8E /* Release */ = {
+		C934C12F1DF2F28600427E20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 281AC2197C3527C716643CCD /* Pods-FipeOfertas-FipeOfertasUITests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = FipeOfertasTests/Info.plist;
+				INFOPLIST_FILE = FipeOfertasUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Com.BR.Dodo.FipeOfertasTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Com.BR.Dodo.FipeOfertasUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FipeOfertas.app/FipeOfertas";
+				TEST_TARGET_NAME = FipeOfertas;
 			};
 			name = Release;
 		};
@@ -518,6 +754,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -569,6 +806,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -626,19 +864,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C902A4261DE9F15B00566F39 /* Build configuration list for PBXNativeTarget "FipeOfertasUITests" */ = {
+		C934C1211DF2F27C00427E20 /* Build configuration list for PBXNativeTarget "FipeOfertasTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C902A4241DE9F15B00566F39 /* Debug */,
-				C902A4251DE9F15B00566F39 /* Release */,
+				C934C11F1DF2F27C00427E20 /* Debug */,
+				C934C1201DF2F27C00427E20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		C916350F1DE9CDA1006B3B8E /* Build configuration list for PBXNativeTarget "FipeOfertasTests" */ = {
+		C934C12D1DF2F28600427E20 /* Build configuration list for PBXNativeTarget "FipeOfertasUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C91635101DE9CDA1006B3B8E /* Debug */,
-				C91635111DE9CDA1006B3B8E /* Release */,
+				C934C12E1DF2F28600427E20 /* Debug */,
+				C934C12F1DF2F28600427E20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

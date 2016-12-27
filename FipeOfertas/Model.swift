@@ -9,10 +9,8 @@
 import Foundation
 
 struct Model {
+    let idBrand: Int?
     let idModel: Int?
     let name: String?
-    let brand: String?
-    let key: String?
     let fipeBrand: String?
-    let fipeName: String?
 }
